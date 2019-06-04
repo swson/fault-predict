@@ -1,0 +1,4 @@
+%import the data into the matlab as matrix, type this on matlab command window
+j=1; %j is the row number, eg:1,100,200,300, ..., 1000,...
+head=sprintf('sedov temp3 row%d',j);% title name on the plot
+plot(data_sedovtemp3(26945,:),data_sedovtemp3(j,:),'ks'); grid on; title(head); % 26945 is the row where shows the iteration sequence number, it can be at any row.
