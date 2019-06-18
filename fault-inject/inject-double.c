@@ -1,3 +1,6 @@
+/* This error injection routine is used in our ASPDAC'05 paper,
+   titled "Using Loop Invariants to Fight Soft Errors in Data Caches".
+*/
 #include <stdio.h>
 
 const double  MD_WORD_ERROR_RATE = 1e-7;
